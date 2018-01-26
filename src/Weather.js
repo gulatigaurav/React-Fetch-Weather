@@ -70,9 +70,12 @@ class Weather extends Component {
         }
 
         return (
-           <div>
-               <h3> Get Weather Component</h3>
+           <div className='text-center'>
+               <br />
+               <h3 className='heading-space'> Get Weather</h3>
+               <br />
                 <WeatherForm onSearch={this.handleSearch}/>
+                <br />
                 {renderMessage()}
            </div>
 

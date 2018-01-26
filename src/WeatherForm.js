@@ -16,11 +16,18 @@ class WeatherForm extends Component {
     render() {
         return (
             <div>
+              <div className='row'>
+                <div className='col-md-4'></div>
+                <div className='col-md-4'>
                 <form onSubmit={this.onFormSubmit}>
-                    <input type='text' ref='location'/>
-                    <button>Get Weather</button>
+                  <div className='form-group'>
+                    <input type='text' ref='location' className='form-control' placeholder='Enter city'/>
+                    </div>
+                    <button className='btn btn-outline-primary btn-block'>Get Weather</button>
                 </form>
-
+                  </div>
+                <div className='col-md-4'></div>
+              </div>
             </div>
 
         );

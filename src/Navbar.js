@@ -9,7 +9,7 @@ class Navbar extends Component {
         e.preventDefault();
         alert('Not yet wired up');
     }
-  
+
     render() {
         return (
 

@@ -7,7 +7,6 @@ class WeatherMessage extends Component {
     render() {
         return (
             <div>
-
                 <h3> Its {this.props.temp} degrees in {this.props.location} </h3>
             </div>
 

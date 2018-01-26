@@ -6,7 +6,15 @@ class About extends Component {
 
     render() {
         return (
-            <h3>About Component</h3>
+          <div className='text-center'>
+            <br />
+            <h3>About us</h3>
+            <p> I am Gaurav, just learning React Js and this is my app to check out weather using API by OpenWeatherMap...
+              <br />
+              Here is my
+              <a href='http://www.github.com/gulatigaurav'> Github profile link</a>
+            </p>
+          </div>
         );
     }
 }

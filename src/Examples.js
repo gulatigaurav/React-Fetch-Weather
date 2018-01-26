@@ -6,7 +6,18 @@ class Examples extends Component {
 
     render() {
         return (
-            <h3>Examples Component</h3>
+              <div>
+              <br />
+                <h3 className="text-center">Examples</h3>
+                <p className="text-center">Here are some of the Examples that you can enter to check the weather of your City like:
+                  <br />
+                  Gurgaon
+                  <br />
+                  Mumbai
+                  <br />
+                  Chandigarh
+                 </p>
+              </div>
         );
     }
 }
