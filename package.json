@@ -17,6 +17,12 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "bootstrap": "^4.0.0",
+    "css-loader": "^0.28.9",
+    "foundation-sites": "^6.4.4-rc1",
+    "jquery": "^3.3.1",
+    "script-loader": "^0.7.2",
+    "style-loader": "^0.19.1",
     "webpack": "^3.10.0"
   }
 }
